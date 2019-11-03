@@ -23,7 +23,3 @@ In order to run the application do as follows:
 3. Run `./lightricks/bin/lightricks <path to img> <path to hole img> <connectivity> <Z> <Epsilon>`
     
 * The hole is represented by the pixels `p`, s.t `I(p) != 255`.
-
-Example:
-
-    ./lightricks/bin/lightricks  ./srcImgExample.png ./holeShapeExample.png 8 10 0.01
